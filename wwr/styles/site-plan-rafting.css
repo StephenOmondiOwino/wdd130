@@ -1,0 +1,19 @@
+nav {
+    background-color: aqua;
+    padding: 10px;
+}
+h1 {
+    color: #4682b4;
+    font-style: normal;
+}
+img {
+    width: 150px;
+    height: auto;
+    padding: 2px;
+}
+h2 {
+    color: slateblue;
+}
+h3 {
+    color: blue;
+}
