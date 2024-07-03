@@ -3,32 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us - Brephine Rafting Site</title>
+    <meta name="description" content="Contact us for inquiries about whitewater rafting adventures.">
+    <link rel="stylesheet" href="rafting.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <link rel="stylesheet" href="rafting.css"
-        <img src="Images/dryoarlogo3 (1).png" alt="logo"> 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
-            <img src="Images/dryoarlogo3 (1).png" alt="logo"
-        </nav>   
+        <div class="container">
+            <h1>Brephine Rafting Adventures</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        
-            <h1>Contact Us</h1>
-        
-            <h2>Send Us Message</h2>
-            <p>White Water Rafting</p>
-            <p>phone: <a href="+254741520882">+254741520882</a>
-            <p>Email: <a href="stephenmail2030@gmail.com">stephenmail2030@gmail.com</p>
-            
 
-            
+    
+    <main>
+        <div class="container">
+            <section id="company-info">
+                <h2>Company Information</h2>
+                <p>123 River Road, Adventureville</p>
+                <p>Phone: 555-1234</p>
+                <p>Email: info@Brephine.com</p>
+                <!-- Embedded Google Map -->
+                <div class="google-map">
+                    <!-- Replace with your actual Google Maps iframe -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-123.456789!3d12.345678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDM0JzA5LjEiTiAxMjbCsDI3JzE2LjQiVw!5e0!3m2!1sen!2sus!4v1625278249504!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+
+            <section id="employee-profiles">
+                <h2>Meet Our Team</h2>
+                <div class="employee">
+                    <img src="Images/WIN_20230412_11_09_02_Pro.jpg" alt="Employee 1">
+                    <p>John Doe<br>Adventure Guide</p>
+                </div>
+                <div class="employee">
+                    <img src="Images/WIN_20230413_11_28_07_Pro.jpg" alt="Employee 2">
+                    <p>Jane Smith<br>River Expert</p>
+                </div>
+                <div class="employee">
+                    <img src="Images/WIN_20230412_11_09_02_Pro.jpg" alt="Employee 3">
+                    <p>Mike Johnson<br>Customer Service</p>
+                </div>
+            </section>
+
+            <section id="contact-form">
+                <h2>Contact Us</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset>
+                        <legend>Purpose of Message:</legend>
+                        <label><input type="radio" name="purpose" value="General Inquiry" checked> General Inquiry</label>
+                        <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
+                        <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <label><input type="checkbox" name="newsletter" value="subscribe"> Please subscribe me to the monthly newsletter</label>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
     </main>
+
+    <!-- Footer -->
     <footer>
-        
-        <p>@2024 | Rafting Site</p>
+        <div class="container">
+            <p>&copy; 2024 Brephine Rafting Adventures. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

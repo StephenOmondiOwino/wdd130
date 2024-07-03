@@ -41,3 +41,20 @@ img{
     width: 100%;
     height: auto;
 }
+.employee img {
+    width: 500px;
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 0; /* Optional: Make the images circular */
+    display: block; 
+    margin: 0 auto; 
+}
+.employee p {
+    margin-top: 10px; /* Adjust spacing between image and text */
+    margin-bottom: 0; /* Remove bottom margin */
+    font-size: 1em; /* Adjust font size as needed */
+    line-height: 1.2em; /* Adjust line height for spacing */}
+
+.employee {
+    text-align: center; /* Center align the text */
+    margin-bottom: 20px; /* Adjust spacing between employee sections */
+}
