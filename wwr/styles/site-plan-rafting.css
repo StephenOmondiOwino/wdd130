@@ -17,3 +17,78 @@ h2 {
 h3 {
     color: blue;
 }
+/* rafting.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.cta {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.trips .trip {
+    margin-bottom: 20px;
+}
+
+.trips .trip img {
+    max-width: 100%;
+    height: auto;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: #f4f4f4;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
