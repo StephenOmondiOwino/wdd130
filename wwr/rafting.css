@@ -117,3 +117,99 @@ nav ul {
         color: #333;
         font-weight: bold;
       } 
+      /* Footer Styles */
+footer {
+    background-color: #004d40;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; /* Positions content at opposite ends */
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+footer .social-links {
+    display: flex;
+    gap: 1rem; /* Space between icons */
+}
+
+footer .social-links img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s; /* Add hover effect */
+}
+
+footer .social-links img:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
+
+footer p {
+    margin: 0;
+}
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333; /* Ensure good color contrast */
+}
+
+header.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: #004d40; /* Dark green for contrast */
+    padding: 1rem 2rem;
+    color: #fff;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+header .navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+header .navigation a {
+    text-decoration: none;
+    color: #fff; /* White text for good contrast */
+    font-weight: 700;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header .navigation a:hover {
+    color: #80cbc4; /* Light green hover effect */
+}
+
+main {
+    padding: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+footer {
+    background-color: #004d40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .social-links img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #80cbc4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
